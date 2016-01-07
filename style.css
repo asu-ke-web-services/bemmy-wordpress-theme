@@ -343,12 +343,24 @@ h1 {
   line-height: 1.15em;
   text-indent: -3px;
 }
+@media (max-width: 680px) {
+  /* line 19, sass/typography/_headings.scss */
+  h1 {
+    font-size: 3rem;
+  }
+}
 
-/* line 26, sass/typography/_headings.scss */
+/* line 30, sass/typography/_headings.scss */
 h2 {
   font-size: 3.6rem;
   letter-spacing: -1px;
   line-height: 1.1em;
+}
+@media (max-width: 680px) {
+  /* line 30, sass/typography/_headings.scss */
+  h2 {
+    font-size: 2.4rem;
+  }
 }
 
 /* line 1, sass/typography/_copy.scss */
@@ -1019,6 +1031,40 @@ object {
   display: block;
 }
 
+/* line 1, sass/_extensions.scss */
+.brand__title, .brand__description, .navigation__nav ul li {
+  display: inline-block;
+  color: #808080;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  height: 40px;
+  line-height: 38px;
+  letter-spacing: .1em;
+  text-indent: .3em;
+  vertical-align: middle;
+}
+/* line 15, sass/_extensions.scss */
+.brand__title a, .brand__description a, .navigation__nav ul li a {
+  color: #808080;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  height: 40px;
+  line-height: 38px;
+  letter-spacing: .1em;
+  text-indent: .3em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  text-decoration: none;
+}
+/* line 29, sass/_extensions.scss */
+.brand__title a:hover, .brand__description a:hover, .navigation__nav ul li a:hover {
+  color: white;
+}
+
 /* line 2, sass/components/_article.scss */
 .article__title a {
   text-decoration: none;
@@ -1065,14 +1111,15 @@ object {
   background: no-repeat center center;
   background-size: cover;
   margin-bottom: 1em;
-  min-height: 60vh;
+  height: 60vh;
+  max-height: 55vw;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 50, sass/components/_article.scss */
+/* line 51, sass/components/_article.scss */
 .article__preview-thumbnail {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1087,60 +1134,37 @@ object {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  -o-filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
 }
 
-/* line 68, sass/components/_article.scss */
+/* line 75, sass/components/_article.scss */
 .article__preview-thumbnail-title {
   font-size: 1.2em;
 }
+@media (max-width: 680px) {
+  /* line 75, sass/components/_article.scss */
+  .article__preview-thumbnail-title {
+    font-size: .9em;
+    line-height: 1.2em;
+  }
+}
 
 /* line 1, sass/components/_brand.scss */
-.brand__title, .brand__description {
-  display: inline-block;
-  color: #808080;
-  display: inline-block;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 500;
-  font-size: 13px;
-  height: 40px;
-  line-height: 38px;
-  letter-spacing: .1em;
-  text-indent: .3em;
-  vertical-align: middle;
-}
-/* line 15, sass/components/_brand.scss */
-.brand__title a, .brand__description a {
-  color: #808080;
-  display: inline-block;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 500;
-  font-size: 13px;
-  height: 40px;
-  line-height: 38px;
-  letter-spacing: .1em;
-  text-indent: .3em;
-  text-transform: uppercase;
-  vertical-align: middle;
-  text-decoration: none;
-}
-/* line 29, sass/components/_brand.scss */
-.brand__title a:hover, .brand__description a:hover {
-  color: white;
-}
-
-/* line 35, sass/components/_brand.scss */
 .brand {
   display: inline-block;
-  width: 100%;
 }
 
-/* line 40, sass/components/_brand.scss */
+/* line 5, sass/components/_brand.scss */
 .brand__title {
   margin-bottom: 0;
   margin-top: 0;
 }
 
-/* line 47, sass/components/_brand.scss */
+/* line 12, sass/components/_brand.scss */
 .brand__description {
   font-size: 13px;
   letter-spacing: 0px;
@@ -1149,7 +1173,7 @@ object {
   margin-top: 0;
 }
 @media (max-width: 680px) {
-  /* line 47, sass/components/_brand.scss */
+  /* line 12, sass/components/_brand.scss */
   .brand__description {
     display: none;
   }
@@ -1223,7 +1247,24 @@ object {
   }
 }
 
-/* line 31, sass/components/_navigation.scss */
+/* line 27, sass/components/_navigation.scss */
+.navigation__nav {
+  display: inline-block;
+}
+/* line 30, sass/components/_navigation.scss */
+.navigation__nav ul {
+  margin: 0;
+}
+/* line 33, sass/components/_navigation.scss */
+.navigation__nav ul li {
+  display: inline-block;
+}
+/* line 39, sass/components/_navigation.scss */
+.navigation__nav .menu-toggle {
+  display: none;
+}
+
+/* line 44, sass/components/_navigation.scss */
 .post-links {
   display: flex;
 }

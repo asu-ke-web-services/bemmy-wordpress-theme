@@ -25,7 +25,20 @@
 }
 
 .navigation__nav {
-  
+  display: inline-block;
+
+  ul {
+    margin: 0;
+
+    li {
+      @extend %navigation_element;
+      display: inline-block;
+    }
+  }
+
+  .menu-toggle {
+    display: none;
+  }
 }
 
 .post-links {

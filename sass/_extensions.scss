@@ -1,0 +1,33 @@
+%navigation_element {
+  display: inline-block;
+
+  color: #808080;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  height: 40px;
+  line-height: 38px;
+  letter-spacing: .1em;
+  text-indent: .3em;
+  vertical-align: middle;
+
+  a {
+    color: #808080;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    height: 40px;
+    line-height: 38px;
+    letter-spacing: .1em;
+    text-indent: .3em;
+    text-transform: uppercase;
+    vertical-align: middle;
+    text-decoration: none;
+
+    &:hover {
+      color: white;
+    }
+  }
+}
