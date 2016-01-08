@@ -30,8 +30,11 @@ pre {
 
 code, kbd, tt, var {
 	font-family: $font__code;
-	@include font-size(0.9375);
+	font-size: 1.6rem;
+  background-color: #D9F3F9;
+  padding: 5px;
 }
+
 
 abbr, acronym {
 	border-bottom: 1px dotted $color__border-abbr;

@@ -402,23 +402,24 @@ pre {
 /* line 31, sass/typography/_copy.scss */
 code, kbd, tt, var {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-  font-size: 15px;
-  font-size: 0.9375rem;
+  font-size: 1.6rem;
+  background-color: #D9F3F9;
+  padding: 5px;
 }
 
-/* line 36, sass/typography/_copy.scss */
+/* line 39, sass/typography/_copy.scss */
 abbr, acronym {
   border-bottom: 1px dotted #666666;
   cursor: help;
 }
 
-/* line 41, sass/typography/_copy.scss */
+/* line 44, sass/typography/_copy.scss */
 mark, ins {
   background: #fff9c0;
   text-decoration: none;
 }
 
-/* line 46, sass/typography/_copy.scss */
+/* line 49, sass/typography/_copy.scss */
 big {
   font-size: 125%;
 }
