@@ -11,3 +11,18 @@
     width: 80%;
   }
 }
+
+.page__main--full-width {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  max-width: 100%;
+
+  padding-left: 0rem;
+  padding-right: 0rem;
+
+  @media (min-width: 680px) {
+    max-width: 100%;
+    width: 100%;
+  }
+}

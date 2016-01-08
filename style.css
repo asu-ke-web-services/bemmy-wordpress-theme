@@ -390,8 +390,7 @@ address {
 pre {
   background: #eeeeee;
   font-family: "Courier 10 Pitch", Courier, monospace;
-  font-size: 15px;
-  font-size: 0.9375rem;
+  font-size: 1.6rem;
   line-height: 1.6;
   margin-bottom: 1.6em;
   max-width: 100%;
@@ -1284,5 +1283,22 @@ object {
   .page__main {
     max-width: 710px;
     width: 80%;
+  }
+}
+
+/* line 15, sass/components/_page.scss */
+.page__main--full-width {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  max-width: 100%;
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+@media (min-width: 680px) {
+  /* line 15, sass/components/_page.scss */
+  .page__main--full-width {
+    max-width: 100%;
+    width: 100%;
   }
 }
