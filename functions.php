@@ -97,8 +97,10 @@ add_action( 'after_setup_theme', 'bemmy_content_width', 0 );
  * Enqueue scripts and styles.
  */
 function bemmy_scripts() {
+	wp_enqueue_style( 'bootstrap-4-style', get_template_directory_uri() . '/assets/bootstrap/bootstrap.min.css' );
 	wp_enqueue_style( 'bemmy-style', get_stylesheet_uri() );
 
+	wp_enqueue_script( 'bootstrap-4-script', get_template_directory_uri() . '/assets/bootstrap/bootstrap.min.js' );
 	wp_enqueue_script( 'bemmy-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'bemmy-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );

@@ -334,9 +334,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   clear: both;
   font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
 
-/* line 19, sass/typography/_headings.scss */
+/* line 20, sass/typography/_headings.scss */
 h1 {
   font-size: 5rem;
   letter-spacing: -2px;
@@ -344,20 +345,20 @@ h1 {
   text-indent: -3px;
 }
 @media (max-width: 680px) {
-  /* line 19, sass/typography/_headings.scss */
+  /* line 20, sass/typography/_headings.scss */
   h1 {
     font-size: 3rem;
   }
 }
 
-/* line 30, sass/typography/_headings.scss */
+/* line 31, sass/typography/_headings.scss */
 h2 {
   font-size: 3.6rem;
   letter-spacing: -1px;
   line-height: 1.1em;
 }
 @media (max-width: 680px) {
-  /* line 30, sass/typography/_headings.scss */
+  /* line 31, sass/typography/_headings.scss */
   h2 {
     font-size: 2.4rem;
   }
