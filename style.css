@@ -1270,6 +1270,11 @@ object {
   display: flex;
 }
 
+/* line 48, sass/components/_navigation.scss */
+.post-navigation {
+  text-align: center;
+}
+
 /* line 1, sass/components/_page.scss */
 .page__main {
   margin-left: auto;
