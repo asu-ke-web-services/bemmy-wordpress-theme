@@ -7,6 +7,8 @@
  * @package Bemmy
  */
 
+require_once dirname( __FILE__ ) . '/components/Navigation/NextAndPreviousPageLinks.php';
+
 get_header(); ?>
 
 	<div id="primary" class="page">
@@ -42,7 +44,8 @@ get_header(); ?>
 
 			endwhile;
 
-			the_posts_navigation();
+			//the_posts_navigation();
+			NextAndPreviousPageLinks();
 
 		else :
 
