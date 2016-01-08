@@ -15,8 +15,23 @@
 get_header(); ?>
 
 	<div id="primary" class="page">
+		<?php
+		if ( is_home() && get_header_image() ) :
+		?>
+			<div class="page__feature" style="background-image: url(<?php header_image(); ?>)">
+				<div class="page__feature-container">
+					<h1 class="page__title page__title--feature">
+						<?php echo get_bloginfo( 'name' ); ?>
+					</h1>
+					<h2 class="page__description page__description--feature">
+						<?php echo get_bloginfo( 'description' ); ?>
+					</h2>
+				</div>
+			</div>
+		<?php
+		endif;
+		?>
 		<main id="main" class="page__main" role="main">
-
 		<?php
 		if ( have_posts() ) :
 

@@ -25,7 +25,7 @@ function bemmy_custom_header_setup() {
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1000,
-		'height'                 => 250,
+		'height'                 => 400,
 		'flex-height'            => true,
 		'wp-head-callback'       => 'bemmy_header_style',
 	) ) );

@@ -16,7 +16,7 @@ get_header(); ?>
 
 	<div id="primary" class="page">
 		<main id="main" class="page__main" role="main">
-
+			
 			<?php
 			while ( have_posts() ) : the_post();
 

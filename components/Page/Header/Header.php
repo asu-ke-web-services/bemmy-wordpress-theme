@@ -10,9 +10,4 @@ function Page_Header() {
     </header><!-- .entry-header -->
 <?php
   }
-
-?>
-
-
-<?php
 }
