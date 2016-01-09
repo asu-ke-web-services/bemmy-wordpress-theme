@@ -14,6 +14,9 @@
  * @package Bemmy
  */
 
+// Full Width template removes wpautop!
+remove_filter('the_content', 'wpautop');
+
 get_header(); ?>
 
   <div id="primary" class="page">
