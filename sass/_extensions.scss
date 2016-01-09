@@ -3,7 +3,7 @@
 
   color: #808080;
   display: inline-block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $font__sans-serif;
   font-weight: 500;
   font-size: 13px;
   height: 40px;
@@ -15,7 +15,7 @@
   a {
     color: #808080;
     display: inline-block;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $font__sans-serif;
     font-weight: 500;
     font-size: 13px;
     height: 40px;

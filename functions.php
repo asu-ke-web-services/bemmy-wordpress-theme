@@ -98,7 +98,7 @@ add_action( 'after_setup_theme', 'bemmy_content_width', 0 );
  */
 function bemmy_scripts() {
 	$theme_version = wp_get_theme()->get( 'Version' );
-	wp_enqueue_style( 'bootstrap-4-style', get_template_directory_uri() . '/assets/bootstrap/bootstrap.min.css' );
+	wp_enqueue_style( 'fa-style', get_template_directory_uri() . '/assets/font-awesome/css/font-awesome.min.css', [], '4.5.0' );
 	wp_enqueue_style( 'bemmy-style', get_stylesheet_uri(), [], $theme_version );
 
 	wp_enqueue_script( 'bootstrap-4-script', get_template_directory_uri() . '/assets/bootstrap/bootstrap.min.js' );
