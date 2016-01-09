@@ -44,13 +44,15 @@
 }
 
 .page__feature-container {
-  display: block; 
+  display: block;
+  width: 100%;
 }
 
 .page__title,
 .page__description {
   display: block;
   color: white;
+  margin: auto;
   max-width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;

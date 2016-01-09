@@ -1,16 +1,14 @@
 /*!
 Theme Name: Bemmy
 Theme URI: http://underscores.me/
-Author: Arizona State University
-Author URI: https://github.com/gios-asu
-Description: BEM styled WordPress theme with Bootstrap and Font Awesome
-Version: 1.0.1
+Author: Ivan Montiel
+Author URI: https://github.com/idmontie
+Description: Description
+Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: bemmy
 Tags:
-GitHub Theme URI: gios-asu/bemmy-wordpress-theme
-GitHub Theme URI: https://github.com/gios-asu/bemmy-wordpress-theme
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -59,7 +57,7 @@ body {
   margin: 0;
 }
 
-/* line 22, sass/_normalize.scss */
+/* line 11, sass/_normalize.scss */
 article,
 aside,
 details,
@@ -75,7 +73,7 @@ summary {
   display: block;
 }
 
-/* line 29, sass/_normalize.scss */
+/* line 26, sass/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -90,7 +88,7 @@ audio:not([controls]) {
   height: 0;
 }
 
-/* line 40, sass/_normalize.scss */
+/* line 39, sass/_normalize.scss */
 [hidden],
 template {
   display: none;
@@ -101,7 +99,7 @@ a {
   background-color: transparent;
 }
 
-/* line 49, sass/_normalize.scss */
+/* line 48, sass/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -112,7 +110,7 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 58, sass/_normalize.scss */
+/* line 57, sass/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -140,7 +138,7 @@ small {
   font-size: 80%;
 }
 
-/* line 81, sass/_normalize.scss */
+/* line 80, sass/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -185,7 +183,7 @@ pre {
   overflow: auto;
 }
 
-/* line 120, sass/_normalize.scss */
+/* line 117, sass/_normalize.scss */
 code,
 kbd,
 pre,
@@ -194,7 +192,7 @@ samp {
   font-size: 1em;
 }
 
-/* line 129, sass/_normalize.scss */
+/* line 125, sass/_normalize.scss */
 button,
 input,
 optgroup,
@@ -210,13 +208,13 @@ button {
   overflow: visible;
 }
 
-/* line 140, sass/_normalize.scss */
+/* line 139, sass/_normalize.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 147, sass/_normalize.scss */
+/* line 144, sass/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -225,13 +223,13 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 153, sass/_normalize.scss */
+/* line 152, sass/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 158, sass/_normalize.scss */
+/* line 157, sass/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -243,14 +241,14 @@ input {
   line-height: normal;
 }
 
-/* line 168, sass/_normalize.scss */
+/* line 167, sass/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-/* line 174, sass/_normalize.scss */
+/* line 173, sass/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -262,7 +260,7 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 184, sass/_normalize.scss */
+/* line 183, sass/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -297,7 +295,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 213, sass/_normalize.scss */
+/* line 212, sass/_normalize.scss */
 td,
 th {
   padding: 0;
@@ -306,7 +304,7 @@ th {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-/* line 5, sass/typography/_typography.scss */
+/* line 1, sass/typography/_typography.scss */
 body,
 button,
 input,
@@ -391,7 +389,7 @@ address {
 
 /* line 20, sass/typography/_copy.scss */
 pre {
-  background: #eeeeee;
+  background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
   font-size: 1.6rem;
   line-height: 1.6;
@@ -411,7 +409,7 @@ code, kbd, tt, var {
 
 /* line 39, sass/typography/_copy.scss */
 abbr, acronym {
-  border-bottom: 1px dotted #666666;
+  border-bottom: 1px dotted #666;
   cursor: help;
 }
 
@@ -426,6 +424,11 @@ big {
   font-size: 125%;
 }
 
+/* line 53, sass/typography/_copy.scss */
+.text-center {
+  text-align: center;
+}
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -435,7 +438,7 @@ html {
   font-size: 62.5%;
 }
 
-/* line 8, sass/elements/_elements.scss */
+/* line 6, sass/elements/_elements.scss */
 *,
 *:before,
 *:after {
@@ -445,7 +448,7 @@ html {
 
 /* line 12, sass/elements/_elements.scss */
 body {
-  background: white;
+  background: #fff;
   /* Fallback for when there is no custom background color defined. */
 }
 
@@ -453,14 +456,14 @@ body {
 blockquote, q {
   quotes: "" "";
 }
-/* line 20, sass/elements/_elements.scss */
+/* line 19, sass/elements/_elements.scss */
 blockquote:before, blockquote:after, q:before, q:after {
   content: "";
 }
 
 /* line 25, sass/elements/_elements.scss */
 hr {
-  background-color: #cccccc;
+  background-color: #ccc;
   border: 0;
   height: 1px;
   margin-bottom: 2em;
@@ -481,7 +484,7 @@ ol {
   list-style: decimal;
 }
 
-/* line 14, sass/elements/_lists.scss */
+/* line 13, sass/elements/_lists.scss */
 li > ul,
 li > ol {
   margin-bottom: 0;
@@ -515,44 +518,7 @@ table {
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
-/* line 4, sass/forms/_buttons.scss */
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  border: 1px solid;
-  border-color: #cccccc #cccccc #bbbbbb;
-  border-radius: 3px;
-  background: #e6e6e6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 12px;
-  font-size: 0.75rem;
-  line-height: 1;
-  padding: .6em 1em .4em;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-}
-/* line 16, sass/forms/_buttons.scss */
-button:hover,
-input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover {
-  border-color: #cccccc #bbbbbb #aaaaaa;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
-}
-/* line 22, sass/forms/_buttons.scss */
-button:active, button:focus,
-input[type="button"]:active,
-input[type="button"]:focus,
-input[type="reset"]:active,
-input[type="reset"]:focus,
-input[type="submit"]:active,
-input[type="submit"]:focus {
-  border-color: #aaaaaa #bbbbbb #bbbbbb;
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
-}
-
-/* line 16, sass/forms/_fields.scss */
+/* line 1, sass/forms/_fields.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -569,8 +535,8 @@ input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
 textarea {
-  color: #666666;
-  border: 1px solid #cccccc;
+  color: #666;
+  border: 1px solid #ccc;
   border-radius: 3px;
 }
 /* line 21, sass/forms/_fields.scss */
@@ -590,15 +556,15 @@ input[type="datetime"]:focus,
 input[type="datetime-local"]:focus,
 input[type="color"]:focus,
 textarea:focus {
-  color: #111111;
+  color: #111;
 }
 
 /* line 26, sass/forms/_fields.scss */
 select {
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
 }
 
-/* line 44, sass/forms/_fields.scss */
+/* line 30, sass/forms/_fields.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -631,22 +597,22 @@ textarea {
 --------------------------------------------------------------*/
 /* line 1, sass/navigation/_links.scss */
 a {
-  color: #4a4a4a;
+  color: #4A4A4A;
   transition: color 0.3s ease;
 }
 /* line 5, sass/navigation/_links.scss */
 a:visited {
-  color: #111111;
+  color: #111;
 }
-/* line 10, sass/navigation/_links.scss */
+/* line 8, sass/navigation/_links.scss */
 a:hover, a:focus, a:active {
-  color: #111111;
+  color: #111;
 }
 /* line 13, sass/navigation/_links.scss */
 a:focus {
   outline: thin dotted;
 }
-/* line 17, sass/navigation/_links.scss */
+/* line 16, sass/navigation/_links.scss */
 a:hover, a:active {
   outline: 0;
 }
@@ -682,7 +648,7 @@ a:hover, a:active {
   left: -999em;
   top: 0;
 }
-/* line 28, sass/navigation/_menus.scss */
+/* line 27, sass/navigation/_menus.scss */
 .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
   left: 100%;
 }
@@ -690,7 +656,7 @@ a:hover, a:active {
 .main-navigation ul ul a {
   width: 200px;
 }
-/* line 47, sass/navigation/_menus.scss */
+/* line 46, sass/navigation/_menus.scss */
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
   left: auto;
@@ -707,7 +673,7 @@ a:hover, a:active {
 }
 
 /* Small menu. */
-/* line 73, sass/navigation/_menus.scss */
+/* line 72, sass/navigation/_menus.scss */
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
@@ -815,7 +781,7 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
-/* line 12, sass/modules/_clearings.scss */
+/* line 1, sass/modules/_clearings.scss */
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -833,7 +799,7 @@ a:hover, a:active {
   table-layout: fixed;
 }
 
-/* line 21, sass/modules/_clearings.scss */
+/* line 16, sass/modules/_clearings.scss */
 .clear:after,
 .entry-content:after,
 .comment-content:after,
@@ -872,19 +838,19 @@ a:hover, a:active {
   margin: 0 0 1.5em;
 }
 
-/* line 10, sass/site/primary/_posts-and-pages.scss */
+/* line 9, sass/site/primary/_posts-and-pages.scss */
 .byline,
 .updated:not(.published) {
   display: none;
 }
 
-/* line 15, sass/site/primary/_posts-and-pages.scss */
+/* line 14, sass/site/primary/_posts-and-pages.scss */
 .single .byline,
 .group-blog .byline {
   display: inline;
 }
 
-/* line 21, sass/site/primary/_posts-and-pages.scss */
+/* line 19, sass/site/primary/_posts-and-pages.scss */
 .page-content,
 .entry-content,
 .entry-summary {
@@ -900,7 +866,7 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Asides
 --------------------------------------------------------------*/
-/* line 2, sass/site/primary/_asides.scss */
+/* line 1, sass/site/primary/_asides.scss */
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
   display: none;
@@ -923,7 +889,7 @@ a:hover, a:active {
 # Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
-/* line 3, sass/modules/_infinite-scroll.scss */
+/* line 2, sass/modules/_infinite-scroll.scss */
 .infinite-scroll .posts-navigation,
 .infinite-scroll.neverending .site-footer {
   /* Theme Footer (when set to scrolling) */
@@ -939,7 +905,7 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
-/* line 3, sass/media/_media.scss */
+/* line 1, sass/media/_media.scss */
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
@@ -950,7 +916,7 @@ a:hover, a:active {
 }
 
 /* Make sure embeds and iframes fit their containers. */
-/* line 13, sass/media/_media.scss */
+/* line 11, sass/media/_media.scss */
 embed,
 iframe,
 object {
@@ -1191,7 +1157,7 @@ object {
   vertical-align: middle;
   z-index: 2;
   box-sizing: border-box;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -1228,7 +1194,7 @@ object {
   position: relative;
   z-index: 2;
   box-sizing: border-box;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -1330,6 +1296,7 @@ object {
 /* line 46, sass/components/_page.scss */
 .page__feature-container {
   display: block;
+  width: 100%;
 }
 
 /* line 51, sass/components/_page.scss */
@@ -1337,6 +1304,7 @@ object {
 .page__description {
   display: block;
   color: white;
+  margin: auto;
   max-width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
