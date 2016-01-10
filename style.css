@@ -44,6 +44,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Media
 	## Captions
 	## Galleries
+# Extensions
+# Components
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Normalize
@@ -7594,6 +7596,81 @@ table {
   width: 100%;
 }
 
+/* line 8, sass/elements/_margins.scss */
+.margin-top-xl {
+  margin-top: 12rem;
+}
+
+/* line 12, sass/elements/_margins.scss */
+.padding-top-xl {
+  padding-top: 12rem;
+}
+
+/* line 16, sass/elements/_margins.scss */
+.padding-bottom-xl {
+  padding-bottom: 12rem;
+}
+
+/* line 21, sass/elements/_margins.scss */
+.margin-top-lg {
+  margin-top: 9rem;
+}
+
+/* line 25, sass/elements/_margins.scss */
+.padding-top-lg {
+  padding-top: 9rem;
+}
+
+/* line 29, sass/elements/_margins.scss */
+.padding-bottom-lg {
+  padding-bottom: 9rem;
+}
+
+/* line 34, sass/elements/_margins.scss */
+.margin-top-md {
+  margin-top: 6rem;
+}
+
+/* line 38, sass/elements/_margins.scss */
+.padding-top-md {
+  padding-top: 6rem;
+}
+
+/* line 42, sass/elements/_margins.scss */
+.padding-bottom-md {
+  padding-bottom: 6rem;
+}
+
+/* line 47, sass/elements/_margins.scss */
+.margin-top-sm {
+  margin-top: 3rem;
+}
+
+/* line 51, sass/elements/_margins.scss */
+.padding-top-sm {
+  padding-top: 3rem;
+}
+
+/* line 55, sass/elements/_margins.scss */
+.padding-bottom-sm {
+  padding-bottom: 3rem;
+}
+
+/* line 60, sass/elements/_margins.scss */
+.margin-top-xs {
+  margin-top: 1rem;
+}
+
+/* line 64, sass/elements/_margins.scss */
+.padding-top-xs {
+  padding-top: 1rem;
+}
+
+/* line 68, sass/elements/_margins.scss */
+.padding-bottom-xs {
+  padding-bottom: 1rem;
+}
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -8079,6 +8156,9 @@ object {
   display: block;
 }
 
+/*--------------------------------------------------------------
+# Extensions
+--------------------------------------------------------------*/
 /* line 1, sass/_extensions.scss */
 .brand__title, .brand__description, .navigation__nav ul li {
   display: inline-block;
@@ -8113,6 +8193,9 @@ object {
   color: white;
 }
 
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
 /* line 2, sass/components/_article.scss */
 .article__title a {
   text-decoration: none;

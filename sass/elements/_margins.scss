@@ -1,0 +1,71 @@
+$spacing__xl: 12rem;
+$spacing__lg: 9rem;
+$spacing__md: 6rem;
+$spacing__sm: 3rem;
+$spacing__xs: 1rem;
+
+// EXTRA LARGE
+.margin-top-xl {
+  margin-top: $spacing__xl;
+}
+
+.padding-top-xl {
+  padding-top: $spacing__xl;
+}
+
+.padding-bottom-xl {
+  padding-bottom: $spacing__xl;
+}
+
+// LARGE
+.margin-top-lg {
+  margin-top: $spacing__lg;
+}
+
+.padding-top-lg {
+  padding-top: $spacing__lg;
+}
+
+.padding-bottom-lg {
+  padding-bottom: $spacing__lg;
+}
+
+// MEDIUM
+.margin-top-md {
+  margin-top: $spacing__md;
+}
+
+.padding-top-md {
+  padding-top: $spacing__md;
+}
+
+.padding-bottom-md {
+  padding-bottom: $spacing__md;
+}
+
+// SMALL
+.margin-top-sm {
+  margin-top: $spacing__sm;
+}
+
+.padding-top-sm {
+  padding-top: $spacing__sm;
+}
+
+.padding-bottom-sm {
+  padding-bottom: $spacing__sm;
+}
+
+// EXTRA SMALL
+.margin-top-xs {
+  margin-top: $spacing__xs;
+}
+
+.padding-top-xs {
+  padding-top: $spacing__xs;
+}
+
+.padding-bottom-xs {
+  padding-bottom: $spacing__xs;
+}
+
