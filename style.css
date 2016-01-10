@@ -4,7 +4,7 @@ Theme URI: https://github.com/gios-asu/bemmy-wordpress-theme
 Author: Ivan Montiel
 Author URI: https://github.com/idmontie
 Description: BEM style WordPress theme using Bootstrap 4 and Font Awesome
-Version: 1.0.1
+Version: 1.0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: bemmy
@@ -700,7 +700,7 @@ html {
 
 /* line 76, sass/bootstrap/_reboot.scss */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   color: #373a3c;
@@ -1141,7 +1141,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Courier 10 Pitch", Courier, monospace;
 }
 
 /* line 10, sass/bootstrap/_code.scss */
@@ -6118,7 +6118,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6221,7 +6221,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -7392,7 +7392,7 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5;
@@ -7743,6 +7743,11 @@ input[type="color"] {
 textarea {
   padding-left: 3px;
   width: 100%;
+}
+
+/* line 3, sass/forms/_forms.scss */
+.btn {
+  font-family: "Open Sans", sans-serif;
 }
 
 /*--------------------------------------------------------------
