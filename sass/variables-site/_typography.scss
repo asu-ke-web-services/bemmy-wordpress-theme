@@ -7,8 +7,21 @@ $font__sans-serif: 'Open Sans', sans-serif;
 $font__serif: 'Merriweather', serif;
 $font__main: $font__sans-serif;
 
+$heading1-size: 5rem;
+$heading2-size: 3.6rem;
+
 // BOOTSTRAP
 $font-family-sans-serif: $font__sans-serif;
 $font-family-serif:      $font__serif;
 $font-family-monospace:  $font__pre;
 $font-family-base:       $font__main;
+
+$display1-weight: bold;
+$display2-weight: bold;
+$display3-weight: bold;
+$display4-weight: bold;
+
+$display1-size: $heading1-size;
+$display2-size: $heading2-size;
+//$display3-size: ;
+//$display4-size: ;
