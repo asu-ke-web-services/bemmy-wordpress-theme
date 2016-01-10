@@ -4,7 +4,7 @@ Theme URI: https://github.com/gios-asu/bemmy-wordpress-theme
 Author: Ivan Montiel
 Author URI: https://github.com/idmontie
 Description: BEM style WordPress theme using Bootstrap 4 and Font Awesome
-Version: 1.0.3
+Version: 1.0.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: bemmy
@@ -7669,6 +7669,21 @@ table {
 /* line 68, sass/elements/_margins.scss */
 .padding-bottom-xs {
   padding-bottom: 1rem;
+}
+
+/* line 73, sass/elements/_margins.scss */
+.margin-top-0 {
+  margin-top: 0 !important;
+}
+
+/* line 77, sass/elements/_margins.scss */
+.padding-top-0 {
+  padding-top: 0 !important;
+}
+
+/* line 81, sass/elements/_margins.scss */
+.padding-bottom-0 {
+  padding-bottom: 0 !important;
 }
 
 /*--------------------------------------------------------------
