@@ -36,6 +36,14 @@ img {
 	max-width: 100%; /* Adhere to container width. */
 }
 
+a.no-decoration {
+	text-decoration: none !important;
+}
+
+a.decorate {
+	text-decoration: underline !important;
+}
+
 @import "tables";
 
 @import "margins";
